@@ -1,0 +1,5 @@
+apache-airflow-providers-mysql
+apache-airflow-providers-elasticsearch
+apache-airflow-providers-apache-cassandra
+apache-airflow-providers-mongo
+apache-airflow-providers-docker
