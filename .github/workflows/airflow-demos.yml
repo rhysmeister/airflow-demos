@@ -39,6 +39,14 @@ jobs:
         run: airflow db init
 
       - name: Add a test user
+        run: |
+          airflow users create \
+            --username admin \
+            --password secret \
+            --firstname Rhys \
+            --lastname C \
+            --role Admin \
+            --email null@nullity.com
 
       - name: Run airflow webserver
         run: airflow webserver --port 8080 &
