@@ -55,4 +55,4 @@ jobs:
         run: airflow scheduler &
 
       - name: Test airflow homepage
-        run: curl --silent http://localhost:8080/home
+        run: curl -L --silent http://localhost:8080/home
