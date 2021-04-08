@@ -60,4 +60,4 @@ jobs:
       - name: Test airflow homepage
         run: curl -L --silent http://localhost:8080/home | grep "<title>Airflow</title>"
 
-      - name: Start elastic docker container
+      #- name: Start elastic docker container
